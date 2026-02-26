@@ -1,0 +1,3 @@
+If login fails, user should reset password.
+Check if account is locked after multiple failed attempts.
+If still failing, escalate to technical support.
