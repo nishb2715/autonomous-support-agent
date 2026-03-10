@@ -1,3 +1,6 @@
-If login fails, user should reset password.
-Check if account is locked after multiple failed attempts.
-If still failing, escalate to technical support.
+If a user's account is locked after multiple failed login attempts:
+
+1. Ask them to wait 15 minutes before trying again
+2. Suggest resetting the password
+3. Ensure they are using the correct email address
+4. If the issue persists, escalate to technical support

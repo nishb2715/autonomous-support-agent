@@ -1,55 +1,55 @@
-# =========================
-# Python
-# =========================
+# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
 
-# Virtual Environments
+# Virtual environments
+supagent/
 venv/
 env/
-.supagent/
-supagent/
+.venv/
 
-# =========================
-# Environment Variables
-# =========================
+# Environment variables
 .env
-.env.*
 
-# =========================
-# Model Files (Large)
-# =========================
-*.pt
-*.pth
-*.pkl
+# API tokens
+token.json
+credentials.json
 
-# =========================
-# Database Files
-# =========================
-*.db
-*.sqlite3
+# Model cache
+.cache/
+.huggingface/
 
-# =========================
 # Logs
-# =========================
-logs/
-*.log
+/log
 
-# =========================
-# IDE / Editor
-# =========================
-.vscode/
-.idea/
-*.swp
-
-# =========================
-# OS Files
-# =========================
+# OS files
 .DS_Store
 Thumbs.db
 
-# =========================
-# Uvicorn / FastAPI cache
-# =========================
-*.reload
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.xlsx
+*.jsonl
+
+# Temporary files
+*.tmp
+*.bak
+
+# Build files
+dist/
+build/
+
+# ngrok temporary files
+.ngrok2/
+
+app/classification/*.pt
+app/classification/*.pkl

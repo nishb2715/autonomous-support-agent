@@ -1,5 +1,33 @@
+# Core API
+fastapi
+uvicorn
+
+# Environment variables
+python-dotenv
+
+# LLM provider
+groq
+
+# Machine Learning
 torch
 transformers
-pandas
+sentence-transformers
 scikit-learn
+numpy
+pandas
+
+# Vector similarity / retrieval
+faiss-cpu
+
+# WhatsApp Integration
+twilio
+
+# Gmail Integration
+google-api-python-client
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+
+# Utilities
+requests
 tqdm
